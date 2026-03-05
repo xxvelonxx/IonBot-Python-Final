@@ -57,7 +57,7 @@ def handle_message(message):
 
         # Llamar a la API de Anthropic
         response = client.messages.create(
-            model="claude-3-5-sonnet-20240620", # Usamos el mismo modelo que antes
+            model="claude-sonnet-4-5-20250929", # Actualizado a un modelo válido disponible
             max_tokens=1024,
             system=SYSTEM_CONTENT,
             messages=messages,
